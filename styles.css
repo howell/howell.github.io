@@ -34,7 +34,7 @@ nav ul li a {
 
 section {
     padding: 60px 20px;
-    min-height: 100vh;
+    min-height: 25vh;
     text-align: center;
     background-color: #fff;
     margin-bottom: 10px;
@@ -47,7 +47,7 @@ section:nth-child(even) {
 footer {
     text-align: center;
     padding: 10px;
-    background-color: #333;
+    background-color: #777;
     color: #fff;
     position: fixed;
     width: 100%;
