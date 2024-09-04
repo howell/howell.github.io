@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Name - Personal Website</title>
+    <title>Sam Caldwell - Personal Website</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -13,7 +13,7 @@
         <nav>
             <ul>
                 <li><a href="#home">Home</a></li>
-                <li><a href="#research">Research</a></li>
+                <li><a href="#publications">Publications</a></li>
                 <li><a href="#teaching">Teaching</a></li>
                 <li><a href="#projects">Projects</a></li>
             </ul>
@@ -22,34 +22,145 @@
 
     <!-- Sections -->
     <section id="home">
-        <h1>Your Name</h1>
-        <p>Researcher & Developer</p>
-        <p>Welcome to my personal website where I share my research, teaching, and projects.</p>
+        <h1>Sam Caldwell</h1>
+        <p>
+            Since 2015, I've been a programming languages researcher working on
+            <a href="https://syndicate-lang.org">Syndicate</a>, an actor-based
+            language oriented around publish/subscribe communication.
+        </p>
+        <p>
+            I'm interested in the role that <em>protocols</em> play in program
+            design and implementation. For many programs, and especially those
+            requiring concurrency, the protocols of communication between
+            components are as important as the components themselves. Yet, most
+            programming languages provide little if any support for the design,
+            implementation, and verification of these protocols.
+        </p>
+        <p>
+            My work on Syndicate has pursued using a type system as the avenue
+            for introducing explicit support for protocols to the language. To
+            achieve this, I first designed a type system for Syndicate that
+            captures the essence of its form of publish/subscribe communication.
+
+            I then extended this basic design with a type-and-effect system that
+            captures the communication behaviors of the actors in a program.
+            This communication specification is then compiled into the input
+            language of a model checker, which verifies the program with respect
+            to specifications of its protocols.
+        </p>
     </section>
 
-    <section id="research">
-        <h2>Research</h2>
-        <p>Information about your research interests, publications, and ongoing projects.</p>
-        <!-- Add your research details here -->
-    </section>
+    <section id="publications">
+        <h2>Publications</h2>
+        <ul>
+            <li>
+                Sam Caldwell, Tony Garnock-Jones, and Matthias Felleisen.
+                Conversational concurrency With dataspaces and facets.
+                In submission.
+            </li>
+            <li>
+                Sam Caldwell, Tony Garnock-Jones, and Matthias Felleisen.
+                Programming and reasoning about actors that share state.
+                <i>Journal of Functional Programming</i>,
+                to appear.
+            </li>
+            <li>
+                Sam Caldwell.
+                <a href="https://www2.ccs.neu.edu/racket/pubs/dissertation-caldwell.pdf"><i>
+                        Reasoning About Actors that Share State.
+                    </i></a>
+                PhD Thesis, Northeastern University, 2023.
+            </li>
+            <li>
+                Sam Caldwell, Tony Garnock-Jones, and Matthias Felleisen.
+                <a href="https://www2.ccs.neu.edu/racket/pubs/cgjf-jfp20.pdf">
+                    Typed dataspace actors.
+                </a>
+                <i>Journal of Functional Programming</i>,
+                2020.
+            </li>
+        </ul>
+        </section>
+        
+        <section id="teaching">
+            <h2>Teaching</h2>
+            <ul>
+                <li>
+                    Spring 2024:
+                    Instructor of Record,
+                    <a href="https://course.khoury.northeastern.edu/cs3620sp24/index.html">
+                        CS3620: Building Extensible Systems,
+                    </a>
+                    Northeastern University.
+                </li>
+                <li>
+                    Spring 2022:
+                    Instructor,
+                    Independent Study in Programming Concurrent Systems,
+                    Northeastern University.
+                </li>
+                <li>
+                    Fall 2022:
+                    Head/Technical TA,
+                    <a href="https://course.ccs.neu.edu/cs4500f22/">
+                        CS4500: Software Development,
+                    </a>
+                    Northeastern University.
+                </li>
+                <li>
+                    Spring 2020:
+                    Head TA,
+                    <a href="https://course.ccs.neu.edu/cs2510asp20/">
+                        CS2510a: Fundamentals of Computer Science II,
+                    </a>
+                    Northeastern University.
+                </li>
+                <li>
+                    Fall 2019:
+                    Lab TA,
+                    <a href="https://course.ccs.neu.edu/cs2500accelf19/">
+                        CS2500a: Fundamentals of Computer Science I,
+                    </a>
+                    Northeastern University.
+                </li>
+                <li>
+                    Fall 2018:
+                    Head TA,
+                    <a href="https://felleisen.org/matthias/4500-f18/">
+                        CS4500: Software Development,
+                    </a>
+                    Northeastern University.
+                </li>
 
-    <section id="teaching">
-        <h2>Teaching</h2>
-        <p>Details about your teaching experience, courses taught, and mentorships.</p>
-        <!-- Add your teaching details here -->
-    </section>
-
-    <section id="projects">
-        <h2>Projects</h2>
-        <p>A showcase of your personal and academic projects with links to more details.</p>
-        <!-- Add your projects here -->
-    </section>
-
-    <!-- Footer -->
-    <footer>
-        <p>&copy; 2024 Your Name. All rights reserved.</p>
-        <p><a href="https://linkedin.com">LinkedIn</a> | <a href="https://github.com">GitHub</a></p>
-    </footer>
-
-</body>
-</html>
+            </ul>
+        </section>
+        
+        <section id="projects">
+            <h2>Projects</h2>
+            <ul>
+                <li>
+                    <a href="https://know-your-league.com">Know Your League</a>:
+                    A website for analyzing and planning fantasy football
+                    drafts.
+                </li>
+                <li>
+                    <a href="https://syndicate-lang.org">Syndicate</a>:
+                    A programming language for publish/subscribe communication.
+                </li>
+            </ul>
+        </section>
+        
+        <!-- Footer -->
+        <footer>
+            <p>&copy; 2024 Sam Caldwell. All rights reserved.</p>
+            <p>
+                <a href="https://www.linkedin.com/in/sam-caldwell-29589857">LinkedIn</a>
+                |
+                <a href="https://github.com/howell">GitHub</a>
+            </p>
+        
+        </footer>
+        
+        </body>
+        
+        </html>
