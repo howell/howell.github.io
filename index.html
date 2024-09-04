@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name - Personal Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Navigation Menu -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#research">Research</a></li>
+                <li><a href="#teaching">Teaching</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Sections -->
+    <section id="home">
+        <h1>Your Name</h1>
+        <p>Researcher & Developer</p>
+        <p>Welcome to my personal website where I share my research, teaching, and projects.</p>
+    </section>
+
+    <section id="research">
+        <h2>Research</h2>
+        <p>Information about your research interests, publications, and ongoing projects.</p>
+        <!-- Add your research details here -->
+    </section>
+
+    <section id="teaching">
+        <h2>Teaching</h2>
+        <p>Details about your teaching experience, courses taught, and mentorships.</p>
+        <!-- Add your teaching details here -->
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <p>A showcase of your personal and academic projects with links to more details.</p>
+        <!-- Add your projects here -->
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <form action="submit-form.php" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Your Name. All rights reserved.</p>
+        <p><a href="https://linkedin.com">LinkedIn</a> | <a href="https://github.com">GitHub</a></p>
+    </footer>
+
+</body>
+</html>
